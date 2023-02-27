@@ -11,13 +11,14 @@ html
 	margin-bottom: 1rem;
 }
 
+
 body
 {
 	margin:0;
 	padding: 0;
 	height: 100vh;
 	display: grid;
-	margin-bottom: 1rem;
+	
 
 
 }
@@ -26,6 +27,8 @@ main
 {
 	
 	width: 100%;
+	margin-top: auto;
+	margin-bottom: 0;
 }
 
 .order1
@@ -191,6 +194,12 @@ button:hover
 {
 	cursor: pointer;
 	background-image:  linear-gradient( hsl(252, 100%, 67%) , hsl(241, 81%, 54%) );
+}
+
+.attribution 
+{
+	margin-top: 0;
+	margin-bottom: auto;
 }
 
 
